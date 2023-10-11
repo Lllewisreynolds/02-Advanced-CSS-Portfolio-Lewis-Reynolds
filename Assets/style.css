@@ -20,6 +20,7 @@ header {
 
 header h1 {
     width: 20%;
+    font-size: larger;
 }
 
 header nav {
@@ -45,50 +46,58 @@ nav li {
 
 .aboutme-container {
     display:flex;
+    flex-wrap: flex;
     justify-content: space-between;
     align-items:center
 }
-
-/* .image-container {
-    display:flex;
-    justify-content: flex-end;
-    align-items:center
-} */
 
 .aboutme-container > section {
     height: 100%;
     width: 60%;
     border: var(--border-item:);
-    padding: 20px;
-    }
+}
 
-h2 {
-    text-align: center;
+section h2 {
+   text-align: center;
+   background-color: var(--bg-item);
+   border: var(--border-item);
 }
 
 .aboutme-container > img {
-height: 100%;
-width: 50%
+    height: 100%;
+    width: 50%
 }
 
 .workimage-container {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    /* justify-content: space-around;
-    align-items: center; */
-    height: 400px;
-    width: auto;
-    background-color: pink;
+    flex-wrap: flex;
+    flex-direction: row;
 }
 
+.imagetext-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
 #larger-workimage {
     flex-basis: 50%;
+    border: var(--border-item);
 }
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    
 .smaller-workimage {
-
-}
+    flex-basis: auto;
+    border: var(--border-item);
+    width: 25%;
+    height: 25%;;
+    }
 
 .contact-container {
 
@@ -97,3 +106,16 @@ width: 50%
 footer {
 
 }
+
+@media screen and (max-width: 992px) {
+   
+  }
+  
+@media screen and (max-width: 768px) {
+    
+  }
+  
+
+@media screen and (max-width: 576px) {
+    
+  }
