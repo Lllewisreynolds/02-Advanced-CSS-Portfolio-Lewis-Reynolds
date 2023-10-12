@@ -40,7 +40,11 @@ nav li {
     border: var(--border-item);
 }
 
-/* I think I managed to get the use of flex to format for the header and nav bar correct, but have struggled to rectify this across my three main sections on my portfolio page. I have attended an office hour and referred back to further resources, but think I need to practice further with how inheritance works between parent and child elements as I don't think my flex containers have been properly deployed as the flex items within it aren't acting exactly as I want them to.*/
+a:hover {
+   color: grey; 
+}
+
+/* I think I managed to get the use of flex to format for the header, nav bar and footer correct, but have struggled to rectify this across my three main sections on my portfolio page. I have attended an office hour and referred back to other resources provided, but think I need to practice further with how inheritance works between parent and child elements as I don't think my flex containers have been properly deployed as the flex items within aren't acting exactly as I want them to at present.*/
 
 .hero {
     height: 400px;
@@ -119,21 +123,29 @@ footer {
     border: var(--border-item);
 }
 
+.footer-container {
+    display: flex;
+}
+
 @media screen and (max-width: 992px) {
-  section {
-    width: 50%;
-  } 
   header, footer {
     background-color: #457081;
+  }
+  header, .workimage-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
   
 @media screen and (max-width: 768px) {
-   section {
-    width: 100%;
-   } 
    header, footer {
     background-image: linear-gradient(#edc9b5 0%, #457081 100%);
+  }
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
   
