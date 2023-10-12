@@ -4,7 +4,7 @@
 
 Initial Wire Frame (Desktop view - items should stack as columns when viewed at smaller screen width through use of flex containers):
 
-![Wireframe] (Assets/Images/Wireframe - Portfolio Page.png)
+![Wireframe](<Assets/Images/Wireframe - Portfolio Page.png>)
 
 This web application consists of a single page portfolio, created to showcase my work and growing skill set to potential employers as a web developer looking to gain an entry-level position within the industry. As the bootcamp progresses, this page will be expanded upon and revised to better reflect my abilities and ongoing through processes as I deploy further web applications. At this early stage in my coding journey, I am attempting to highlight three particular core skills in CSS that have been studied thus far:
 
