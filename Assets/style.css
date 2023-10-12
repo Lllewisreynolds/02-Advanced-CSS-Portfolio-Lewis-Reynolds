@@ -56,7 +56,6 @@ nav li {
 .aboutme-container > section {
     height: 100%;
     width: 60%;
-    border: var(--border-item:);
 }
 
 section h2 {
@@ -134,7 +133,7 @@ footer {
     width: 100%;
    } 
    header, footer {
-    background-image: linear-gradient (#edc9b5 0%, #457081 100%);
+    background-image: linear-gradient(#edc9b5 0%, #457081 100%);
   }
 }
   
